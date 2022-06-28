@@ -11,17 +11,17 @@ namespace SoftRayTask2
         {
             public static List<List<string>> SearchSuggestions(List<string> reviewsRepository, string userInput)
             {
-                reviewsRepository = reviewsRepository.OrderBy(q => q).ToList();
+                reviewsRepository = reviewsRepository.OrderBy(q => q).ToList(); //sortiranje repozitorija
 
-                List<List<string>> retList = new List<List<string>>();
+                List<List<string>> retList = new List<List<string>>(); //pravljenje novog repozitorija
 
-                for (int i = 0; i < userInput.Length; i++)
+                for (int i = 0; i < userInput.Length; i++) //for petlja za svako slovo u userInput
                 {
-                    List<string> listString = new List<string>();
-                    for (int j = 0; j < reviewsRepository.Count; j++)
-                    {
+                    List<string> listString = new List<string>(); //pravljenje liste stringova
+                    for (int j = 0; j < reviewsRepository.Count; j++) //for petlja za svaku stavku u reviewRepository
+                    { //provjera da li je lista vec puna (3 vrijednsti unutar 1 liste), provjera da li taj dio rijeci odgovara rijeci unutar reviewrepozitoriju
                         if (listString.Count < 3 && i < reviewsRepository[j].Length
-                                && (reviewsRepository[j].Substring(0, i + 1).Equals(userInput.Substring(0, i + 1))))
+                                && (reviewsRepository[j].Substring(0, i + 1).Equals(userInput.Substring(0, i + 1)))) 
                         {
                             listString.Add(reviewsRepository[j]);
                         }
@@ -37,11 +37,11 @@ namespace SoftRayTask2
             public static void Main(string[] args)
             {
                 Console.WriteLine("Enter number of List variables!");
-                int reviewsRepositoryCount = Convert.ToInt32(Console.ReadLine().Trim());
+                int reviewsRepositoryCount = Convert.ToInt32(Console.ReadLine().Trim()); //unos broja varijabli za reviewRepository
 
-                List<string> reviewsRepository = new List<string>();
+                List<string> reviewsRepository = new List<string>(); //pravljenje reviewrepository
 
-                for (int i = 0; i < reviewsRepositoryCount; i++)
+                for (int i = 0; i < reviewsRepositoryCount; i++)//unosenje vrijednosti unutar reviewrepository
                 {
                     Console.WriteLine("Enter " + (i + 1) + " variable!");
                     string reviewsRepositoryItem = Console.ReadLine();
@@ -49,11 +49,11 @@ namespace SoftRayTask2
                 }
 
                 Console.WriteLine("Enter userInput");
-                string userInput = Console.ReadLine();
+                string userInput = Console.ReadLine(); //unos userInputa
 
-                List<List<string>> foo = Foo.SearchSuggestions(reviewsRepository, userInput);
+                List<List<string>> foo = Foo.SearchSuggestions(reviewsRepository, userInput); //poziv funkcije za searchalgoritam
 
-                Console.WriteLine(String.Join("\n", foo.Select(x => String.Join(" ", x))));
+                Console.WriteLine(String.Join("\n", foo.Select(x => String.Join(" ", x)))); //ispis
             }
         }
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gondz\\source\\repos\\SoftRayTask2\\SoftRayTask2\\SoftRayTask2.csproj": {}
+    "C:\\Users\\gondz\\Documents\\GitHub\\SoftRayEdinTask2\\SoftRayTask2\\SoftRayTask2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gondz\\source\\repos\\SoftRayTask2\\SoftRayTask2\\SoftRayTask2.csproj": {
+    "C:\\Users\\gondz\\Documents\\GitHub\\SoftRayEdinTask2\\SoftRayTask2\\SoftRayTask2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gondz\\source\\repos\\SoftRayTask2\\SoftRayTask2\\SoftRayTask2.csproj",
+        "projectUniqueName": "C:\\Users\\gondz\\Documents\\GitHub\\SoftRayEdinTask2\\SoftRayTask2\\SoftRayTask2.csproj",
         "projectName": "SoftRayTask2",
-        "projectPath": "C:\\Users\\gondz\\source\\repos\\SoftRayTask2\\SoftRayTask2\\SoftRayTask2.csproj",
+        "projectPath": "C:\\Users\\gondz\\Documents\\GitHub\\SoftRayEdinTask2\\SoftRayTask2\\SoftRayTask2.csproj",
         "packagesPath": "C:\\Users\\gondz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gondz\\source\\repos\\SoftRayTask2\\SoftRayTask2\\obj\\",
+        "outputPath": "C:\\Users\\gondz\\Documents\\GitHub\\SoftRayEdinTask2\\SoftRayTask2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gondz\\AppData\\Roaming\\NuGet\\NuGet.Config",
