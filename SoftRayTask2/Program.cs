@@ -15,7 +15,7 @@ namespace SoftRayTask2
 
                 List<List<string>> retList = new List<List<string>>(); //pravljenje novog repozitorija
 
-                for (int i = 0; i < userInput.Length; i++) //for petlja za svako slovo u userInput
+                for (int i = 1; i < userInput.Length; i++) //for petlja za svako slovo u userInput
                 {
                     List<string> listString = new List<string>(); //pravljenje liste stringova
                     for (int j = 0; j < reviewsRepository.Count; j++) //for petlja za svaku stavku u reviewRepository
