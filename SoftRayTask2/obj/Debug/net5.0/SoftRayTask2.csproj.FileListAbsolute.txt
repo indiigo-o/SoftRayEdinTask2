@@ -1,0 +1,16 @@
+C:\Users\gondz\Documents\GitHub\SoftRayEdinTask2\SoftRayTask2\bin\Debug\net5.0\SoftRayTask2.exe
+C:\Users\gondz\Documents\GitHub\SoftRayEdinTask2\SoftRayTask2\bin\Debug\net5.0\SoftRayTask2.deps.json
+C:\Users\gondz\Documents\GitHub\SoftRayEdinTask2\SoftRayTask2\bin\Debug\net5.0\SoftRayTask2.runtimeconfig.json
+C:\Users\gondz\Documents\GitHub\SoftRayEdinTask2\SoftRayTask2\bin\Debug\net5.0\SoftRayTask2.runtimeconfig.dev.json
+C:\Users\gondz\Documents\GitHub\SoftRayEdinTask2\SoftRayTask2\bin\Debug\net5.0\SoftRayTask2.dll
+C:\Users\gondz\Documents\GitHub\SoftRayEdinTask2\SoftRayTask2\bin\Debug\net5.0\ref\SoftRayTask2.dll
+C:\Users\gondz\Documents\GitHub\SoftRayEdinTask2\SoftRayTask2\bin\Debug\net5.0\SoftRayTask2.pdb
+C:\Users\gondz\Documents\GitHub\SoftRayEdinTask2\SoftRayTask2\obj\Debug\net5.0\SoftRayTask2.csproj.AssemblyReference.cache
+C:\Users\gondz\Documents\GitHub\SoftRayEdinTask2\SoftRayTask2\obj\Debug\net5.0\SoftRayTask2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gondz\Documents\GitHub\SoftRayEdinTask2\SoftRayTask2\obj\Debug\net5.0\SoftRayTask2.AssemblyInfoInputs.cache
+C:\Users\gondz\Documents\GitHub\SoftRayEdinTask2\SoftRayTask2\obj\Debug\net5.0\SoftRayTask2.AssemblyInfo.cs
+C:\Users\gondz\Documents\GitHub\SoftRayEdinTask2\SoftRayTask2\obj\Debug\net5.0\SoftRayTask2.csproj.CoreCompileInputs.cache
+C:\Users\gondz\Documents\GitHub\SoftRayEdinTask2\SoftRayTask2\obj\Debug\net5.0\SoftRayTask2.dll
+C:\Users\gondz\Documents\GitHub\SoftRayEdinTask2\SoftRayTask2\obj\Debug\net5.0\ref\SoftRayTask2.dll
+C:\Users\gondz\Documents\GitHub\SoftRayEdinTask2\SoftRayTask2\obj\Debug\net5.0\SoftRayTask2.pdb
+C:\Users\gondz\Documents\GitHub\SoftRayEdinTask2\SoftRayTask2\obj\Debug\net5.0\SoftRayTask2.genruntimeconfig.cache
